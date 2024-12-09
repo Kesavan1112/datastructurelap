@@ -1,0 +1,48 @@
+#include<stdio.h>
+//void queue();
+int main()
+{
+//n=number,i=iteration.
+int a[20],front=0,rear=0,n,i,ch=0;
+
+printf("enter the element\n");
+scanf("%d",&n);
+while(ch!=1){
+printf("enter the number:");
+scanf("%d",&ch);
+switch(ch){
+case 1:
+printf("exiting");
+break;
+case 2:
+printf("two");
+break;
+
+
+}
+}
+
+if(n>0){
+printf("you type %d element",n);
+
+for(i=0;i<n;i++)
+{
+scanf("\n%d",&a[i]);
+}
+
+for(i=0;i<n;i++)
+{
+printf("\t%d",a[i]);
+}
+for(i=n-1;i>=0;i--)
+{
+printf("deleted queue:%d\t",a[i]);
+}
+//void 
+
+}
+
+
+
+return 0;
+}
